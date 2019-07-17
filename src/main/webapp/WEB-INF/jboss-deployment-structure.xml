@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+  <deployment>
+    <exclusions>
+      <module name="javaee.api" />
+    </exclusions>
+    <resources></resources>
+    <dependencies></dependencies>
+    <exclude-subsystems><subsystem name="jpa" /></exclude-subsystems>
+    <module-alias name="TaskManager.war"/>
+    <exports></exports>
+    <local-last value="true" />
+  </deployment>
+ </jboss-deployment-structure>
